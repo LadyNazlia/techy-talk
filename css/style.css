@@ -1,0 +1,48 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+body {
+  background-image: url(img/techy.png);
+  background-position: top left;
+  background-size: 50%;
+  background-repeat: no-repeat;
+  background-color: rgba(43, 255, 0, 0.479);
+}
+
+section {
+  margin-left: 50%; 
+  width: 50%;
+  font-family: 'Ubuntu Mono', monospace;
+  margin-right: 1%;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 4rem;
+}
+
+h3 {
+  border:2px solid rgba(43, 255, 0, 0.479);
+  height: 1.75rem;
+  margin-right: 2%;
+}
+
+button {
+  background-color: yellow;
+  border: 2px solid red;
+  border-radius: 5%;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
